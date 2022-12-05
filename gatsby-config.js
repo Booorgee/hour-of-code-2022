@@ -6,5 +6,9 @@ module.exports = {
     title: `Hour of Code 2022`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-postcss',
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 }
